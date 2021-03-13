@@ -1,1 +1,257 @@
-<mxfile host="app.diagrams.net" modified="2021-03-13T12:56:24.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" version="14.4.4" etag="3AVfWts5zR6inv3TVj73" type="github"><diagram id="cZAnSPEwNa8-6qzHbwGN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-13T13:47:10.813Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="yDBudG2-U6k1lHkEvHhz" version="14.4.4" type="github">
+  <diagram id="cZAnSPEwNa8-6qzHbwGN" name="Page-1">
+    <mxGraphModel dx="1021" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-1" value="Sistema de Controle e Monitoramento de Diabetes&lt;br&gt;Diagrama de Estados" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="353" y="100" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;" edge="1" source="D2gjq3sX-v1_Xfu4iwsn-2" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="368" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-4" value="Emitir" style="html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="313" y="190" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-7" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="383" y="220" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-8" value="O Status inicial é número do alerta&lt;br&gt;EX: 1° Alerta" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="443" y="160" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-9" value="1° Alerta" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="433" y="270" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-11" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-4" target="D2gjq3sX-v1_Xfu4iwsn-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="378" y="200" as="targetPoint" />
+            <mxPoint x="378" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-12" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="503" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-13" value="O Status é formado pelo número 2 que corresponde a ordem de disparo do alerta.&lt;br&gt;Ex.: Aplicativo dispara o Alerta." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="543" y="220" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-15" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;Encerrar SEM &lt;br&gt;cadastrar&lt;/font&gt;&lt;/b&gt;" style="html=1;strokeColor=#666666;fontColor=#333333;fillColor=#0000CC;" vertex="1" parent="1">
+          <mxGeometry x="613" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-16" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="D2gjq3sX-v1_Xfu4iwsn-25" source="D2gjq3sX-v1_Xfu4iwsn-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="533" y="280" as="targetPoint" />
+            <mxPoint x="523" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-17" value="0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="683" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.25;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="D2gjq3sX-v1_Xfu4iwsn-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="623" y="405" as="targetPoint" />
+            <mxPoint x="660" y="420" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="660" y="420" />
+              <mxPoint x="660" y="448" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-20" value="Iniciar Cadastro" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="273" y="370" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-21" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353" y="400" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-22" value="O Status é formado pelo número 3 que corresponde ao cadastro do exame de destro&lt;br&gt;Ex.: Informar resultado do destro" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="33" y="320" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-25" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;shadow=0;strokeColor=#d6b656;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="463" y="370" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-26" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-25" target="D2gjq3sX-v1_Xfu4iwsn-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="498" y="380" as="targetPoint" />
+            <mxPoint x="498" y="330" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-27" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-25" target="D2gjq3sX-v1_Xfu4iwsn-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="393" y="405" as="targetPoint" />
+            <mxPoint x="473" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-28" value="Monitorar diabetes?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="443" y="420" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-29" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="503" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-30" value="Sim" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="423" y="370" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-32" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="253" y="480" width="150" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-33" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0.647;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-20" target="D2gjq3sX-v1_Xfu4iwsn-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="678" y="470" as="targetPoint" />
+            <mxPoint x="678" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-36" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;shadow=0;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="373" y="540" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-37" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="233" y="540" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-38" value="Cadastrar &lt;br&gt;Alimentação" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-39" value="Registrar&lt;br&gt;Atividade&lt;br&gt;Física" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="413" y="500" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-40" value="Não" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="343" y="550" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-41" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-36" target="D2gjq3sX-v1_Xfu4iwsn-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="506.47" as="targetPoint" />
+            <mxPoint x="338" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-42" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-32" target="D2gjq3sX-v1_Xfu4iwsn-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="496.47" as="targetPoint" />
+            <mxPoint x="338" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-43" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.492;exitY=0.529;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-32" target="D2gjq3sX-v1_Xfu4iwsn-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="388" y="550" as="targetPoint" />
+            <mxPoint x="338.0588235294117" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-44" value="Gerenciar &lt;br&gt;Dosagem" style="html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="273" y="655" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-45" value="4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="353" y="685" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-46" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-36" target="D2gjq3sX-v1_Xfu4iwsn-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="408" y="550" as="targetPoint" />
+            <mxPoint x="338" y="500" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-48" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D2gjq3sX-v1_Xfu4iwsn-46">
+          <mxGeometry x="-0.5686" y="-1" relative="1" as="geometry">
+            <mxPoint x="-14" y="-4.41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-47" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-37" target="D2gjq3sX-v1_Xfu4iwsn-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="665" as="targetPoint" />
+            <mxPoint x="408" y="600" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-49" value="Sim" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="393" y="625.0017647058824" as="geometry">
+            <mxPoint x="-126" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-51" value="O Status é formado pelo número 4 que corresponde ao gerenciamento de Alimentos,&lt;br&gt;Atividades Físicas e Dosagens&lt;br&gt;Ex.: calcular quantidade de insulina" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="13" y="625" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-52" value="Sugerir Dosagem" style="html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="273" y="745" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-53" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="D2gjq3sX-v1_Xfu4iwsn-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="338" y="665" as="targetPoint" />
+            <mxPoint x="328" y="705" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-55" value="5" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="348" y="775" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-56" value="O Status é formado pelo número 5 que corresponde ao cálculo feito pelo sistema para o controle do diabetes&lt;br&gt;Ex.: 8 unidades" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="13" y="720" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-57" value="Registrar/Confirmar&lt;br&gt;Aplicação" style="html=1;fillColor=#33FFFF;" vertex="1" parent="1">
+          <mxGeometry x="453" y="745" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-58" value="6" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="775" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-59" value="O Status é formado pelo número 6 que corresponde a possibilidade do usuário registrar informações referentes a aplicação&lt;br&gt;Ex.: 6 unidades de insulina" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="433" y="810" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-60" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-52" target="D2gjq3sX-v1_Xfu4iwsn-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="337.9999999999998" y="755" as="targetPoint" />
+            <mxPoint x="337.9999999999998" y="715" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-66" value="Exibir Relatório" style="html=1;fillColor=#FFFF00;" vertex="1" parent="1">
+          <mxGeometry x="563" y="655" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-67" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-57" target="D2gjq3sX-v1_Xfu4iwsn-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.9999999999998" y="780" as="targetPoint" />
+            <mxPoint x="392.9999999999998" y="780" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-68" value="7" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="643" y="680" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-69" value="Encerrar com Cadastro" style="html=1;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="599.5" y="540" width="137" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-70" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="D2gjq3sX-v1_Xfu4iwsn-69">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="627.9999999999998" y="715" as="targetPoint" />
+            <mxPoint x="620" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-72" value="8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="575" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-18" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="783" y="450" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-73" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-69" target="D2gjq3sX-v1_Xfu4iwsn-74">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="470" as="targetPoint" />
+            <mxPoint x="668" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="668" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-74" value="" style="shape=line;html=1;strokeWidth=6;strokeColor=#ff0000;direction=south;" vertex="1" parent="1">
+          <mxGeometry x="723" y="430" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-76" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;exitX=0.471;exitY=0.3;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="D2gjq3sX-v1_Xfu4iwsn-74" target="D2gjq3sX-v1_Xfu4iwsn-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="738" y="492.5" as="targetPoint" />
+            <mxPoint x="678" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="730" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-77" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;shadow=0;strokeColor=#d6b656;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="373" y="540" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D2gjq3sX-v1_Xfu4iwsn-78" value="" style="shape=mxgraph.bpmn.shape;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=rhombusPerimeter;background=gateway;outlineConnect=0;outline=none;symbol=parallelGw;shadow=0;strokeColor=#d6b656;fillColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="233" y="540" width="50" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
